@@ -69,3 +69,4 @@ BOARD_KERNEL_CMDLINE += kvm-arm.mode=nvhe
 endif
 
 include device/google/shusky/husky/BoardConfigLineage.mk
+include device/google/shusky/husky/BoardConfigEvolution.mk

@@ -55,3 +55,4 @@ include device/google/shusky/sepolicy/shiba-sepolicy.mk
 include device/google/shusky/wifi/BoardConfig-wifi.mk
 
 include device/google/shusky/shiba/BoardConfigLineage.mk
+include device/google/shusky/shiba/BoardConfigEvolution.mk
