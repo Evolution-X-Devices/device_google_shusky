@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "device_google_zuma",
+    "target_path": "device/google/zuma"
+  },
+  {
+    "repository": "LineageOS/android_device_google_shusky-kernels",
+    "target_path": "device/google/shusky-kernels",
+    "remote": "github-non-los",
+    "branch": "lineage-23.2"
+  }
+]
