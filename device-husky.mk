@@ -18,6 +18,10 @@ endif
 # Inherit from zuma
 include device/google/zuma/common.mk
 
+# Fingerprint
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.sensors-V2-ndk.vendor:64
